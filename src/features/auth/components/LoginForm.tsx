@@ -1,20 +1,20 @@
 "use client"
 
-import { Form , FormImput, FormLabel, FormSubmit } from "@/components/forms"
+import { Form , FormInput, FormLabel, FormSubmit } from "@/components/forms"
 
 export default function LoginForm() {
   return (
     <Form >
 
       <FormLabel htmlFor="email"> E-mail</FormLabel>
-      <FormImput
+      <FormInput
         type="email"
         id="email"
         placeholder="Ingresa tu E-mail"
 
        />
        <FormLabel htmlFor="password">Password</FormLabel>
-      <FormImput type="email"
+      <FormInput type="password"
       id="password"
       placeholder="Ingresa Tu Password"
        />
